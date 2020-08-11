@@ -1,0 +1,27 @@
+{
+  "name": "digioh-pixel",
+  "vendor": "vtex",
+  "version": "0.0.1",
+  "title": "Digioh",
+  "description": "An implementation of Digioh",
+  "builders": {
+    "pixel": "0.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.store": "2.x"
+  },
+  "settingsSchema": {
+    "title": "Digioh",
+    "type": "object",
+    "properties": {
+      "vendorID": {
+        "title": "Vendor ID",
+        "description": "Enter your Podium vendor ID",
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

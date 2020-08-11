@@ -1,0 +1,23 @@
+<script>
+  (function() {
+    var vendorID = "{{settings.vendorID}}";
+    if (!vendorID) {
+      console.error(
+        "Warning: No Digioh vendor ID is defined. Please configure it in the apps admin."
+      );
+      return;
+    }
+    (function e() {
+      var e = document.createElement("script");
+      (e.type = "text/javascript"),
+        (e.async = true),
+        (e.src =
+          "https://www.lightboxcdn.com/vendor/" +
+          vendorID +
+          "/lightbox.js?mb=" +
+          new Date().getTime());
+      var t = document.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(e, t);
+    })();
+  })();
+</script>
