@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Load different Digioh script per their recommendation
+
 ## [0.0.1] - 2020-08-11
 
 ### Added
